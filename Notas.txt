@@ -1,0 +1,16 @@
+
+se utiliza la guia para implementar redux  . https://ngrx.io/guide/store/install
+
+npm install @ngrx/store --save
+
+crear acciones
+
+crear reducer 
+
+inyectar en los componentes el store
+
+utilizar el dispath
+
+implementar varios reducer 
+
+utilizar actionReducerMap para crar varios reducer en el appStore
