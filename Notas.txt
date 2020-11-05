@@ -14,3 +14,15 @@ utilizar el dispath
 implementar varios reducer 
 
 utilizar actionReducerMap para crar varios reducer en el appStore
+
+
+----
+
+ingreso a github , creo nuevo repositorio
+ejecutar lineas desde comando: 
+    si no tengo configurado git en el equipo debo realizar esto
+        git init
+        git add .
+    si tengo configurado, solo debo realizar esto
+        git remote add origin https://github.com/RembertoP/todo-redux-app.git
+        git push -u origin main
