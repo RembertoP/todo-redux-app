@@ -1,0 +1,91 @@
+
+desde CMD
+
+se supone que ya estan instaladas las herramientas de firebase
+
+C:\RUTA>npm i -g firebase-tools
+
+comando siguiente: 
+
+F:\PROGRAMACION\redux-udemy\03-todoapp>git branch
+* develop
+  master
+
+F:\PROGRAMACION\redux-udemy\03-todoapp>firebase login
+Already logged in as rem.marat@gmail.com
+
+F:\PROGRAMACION\redux-udemy\03-todoapp>firebase init
+
+     ######## #### ########  ######## ########     ###     ######  ########
+     ##        ##  ##     ## ##       ##     ##  ##   ##  ##       ##
+     ######    ##  ########  ######   ########  #########  ######  ######
+     ##        ##  ##    ##  ##       ##     ## ##     ##       ## ##
+     ##       #### ##     ## ######## ########  ##     ##  ######  ########
+
+You're about to initialize a Firebase project in this directory:
+
+  F:\PROGRAMACION\redux-udemy\03-todoapp
+
+? Are you ready to proceed? Yes
+? Which Firebase CLI features do you want to set up for this folder? Press Space to select features, then Enter to confi
+rm your choices. Hosting: Configure and deploy Firebase Hosting sites
+
+=== Project Setup
+
+First, let's associate this project directory with a Firebase project.
+You can create multiple project aliases by running firebase use --add,
+but for now we'll just set up a default project.
+
+? Please select an option: Use an existing project
+? Select a default Firebase project for this directory: todoredux-6a5a1 (TodoRedux)
+i  Using project todoredux-6a5a1 (TodoRedux)
+
+=== Hosting Setup
+
+Your public directory is the folder (relative to your project directory) that
+will contain Hosting assets to be uploaded with firebase deploy. If you
+have a build process for your assets, use your build's output directory.
+
+? What do you want to use as your public directory? dist/todoapp
+? Configure as a single-page app (rewrite all urls to /index.html)? No
+? Set up automatic builds and deploys with GitHub? Yes
++  Wrote dist/todoapp/404.html
+? File dist/todoapp/index.html already exists. Overwrite? No
+i  Skipping write of dist/todoapp/index.html
+
+i  Detected a .git folder at F:\PROGRAMACION\redux-udemy\03-todoapp
+i  Authorizing with GitHub to upload your service account to a GitHub repository's secrets store.
+
+Visit this URL on this device to log in:
+https://github.com/login/oauth/authorize?client_id=89cf50f02ac6aaed3484&state=513074815&redirect_uri=http%3A%2F%2Flocalhost%3A9005&scope=read%3Auser%20repo%20public_repo
+
+Waiting for authentication...
+
++  Success! Logged into GitHub as RembertoP
+
+? For which GitHub repository would you like to set up a GitHub workflow? (format: user/repository) RembertoP/todo-redux
+-app
+
++  Created service account github-action-310156015 with Firebase Hosting admin permissions.
++  Uploaded service account JSON to GitHub as secret FIREBASE_SERVICE_ACCOUNT_TODOREDUX_6A5A1.
+i  You can manage your secrets at https://github.com/RembertoP/todo-redux-app/settings/secrets.
+
+? Set up the workflow to run a build script before every deploy? No
+
++  Created workflow file F:\PROGRAMACION\redux-udemy\03-todoapp\.github/workflows/firebase-hosting-pull-request.yml
+? Set up automatic deployment to your site's live channel when a PR is merged? (Y/n) Y
+? Set up automatic deployment to your site's live channel when a PR is merged? Yes
+? What is the name of the GitHub branch associated with your site's live channel? master
+
++  Created workflow file F:\PROGRAMACION\redux-udemy\03-todoapp\.github/workflows/firebase-hosting-merge.yml
+
+i  Action required: Visit this URL to revoke authorization for the Firebase CLI GitHub OAuth App:
+https://github.com/settings/connections/applications/89cf50f02ac6aaed3484
+i  Action required: Push any new workflow file(s) to your repo
+
+i  Writing configuration info to firebase.json...
+i  Writing project information to .firebaserc...
+
++  Firebase initialization complete!
+
+F:\PROGRAMACION\redux-udemy\03-todoapp>
